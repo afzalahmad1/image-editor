@@ -1,0 +1,29 @@
+.main-container{
+    /* position: relative; */
+    /* background: #eaeaea; */
+    color: black;
+    width: 100vw;
+    min-height: 86vh;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.editor-container{
+    /* border: 5px solid yellow; */
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    background: #eaeaea;
+    border-radius: 6px;
+
+}
+.components{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

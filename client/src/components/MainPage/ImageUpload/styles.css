@@ -1,0 +1,20 @@
+
+.image-upload{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.image-upload form{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 330px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 6px;
+    padding: 10px;
+}
