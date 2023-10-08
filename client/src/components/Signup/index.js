@@ -23,7 +23,7 @@ const Signup = () => {
   const registerUser = async () => {
     try {
       const data = await axios.post(
-        "https://neon-lollipop-cae239.netlify.app/user/register",
+        "http://localhost:5001/user/register",
         user
         );
       console.log(data);
