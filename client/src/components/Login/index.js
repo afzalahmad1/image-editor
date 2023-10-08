@@ -29,7 +29,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     axios
-      .post(`https://image-editor-pen3.onrender.com/user/login`, loginObj)
+      .post(`https://server-7xlh.onrender.com/user/login`, loginObj)
       .then((res) => {
         // console.log(res.data.data.token);
         console.log(res.data.message);

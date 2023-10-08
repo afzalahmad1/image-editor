@@ -23,7 +23,7 @@ const Signup = () => {
   const registerUser = async () => {
     try {
       const data = await axios.post(
-        "https://image-editor-pen3.onrender.com/user/register",
+        "https://server-7xlh.onrender.com/user/register",
         user
         );
       console.log(data);

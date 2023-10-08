@@ -6,8 +6,8 @@ import useImage from "use-image";
 
 const UploadedImage = ({ file }) => {
   //  console.log("path",file.path)
-  const [image] = useImage(`https://image-editor-pen3.onrender.com/${file.path}`, 'anonymous');
-  // console.log("image", image);
+  const [image] = useImage(`https://server-7xlh.onrender.com/${file.path}`, 'anonymous');
+   console.log("image", image);
   return <Image x={10} y={0} width={400} height={500} image={image} />;
 };
 
