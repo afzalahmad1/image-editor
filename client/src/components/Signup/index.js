@@ -23,7 +23,7 @@ const Signup = () => {
   const registerUser = async () => {
     try {
       const data = await axios.post(
-        "http://localhost:5001/user/register",
+        "https://image-editor-pen3.onrender.com/user/register",
         user
         );
       console.log(data);

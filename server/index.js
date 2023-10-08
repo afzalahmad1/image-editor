@@ -21,12 +21,14 @@ app.use("/user", RegistrationRoute);
 app.use("/user", loginRoute);
 app.use("/image", imageRoute);
 
+const PORT = process.env.SERVER_PORT || 5001
+
 
 const start = async ()=>{
     try {
         await connectDB();
-        app.listen(process.env.SERVER_PORT,()=>{
-        console.log("Server is running at port", process.env.SERVER_PORT);
+        app.listen(PORT,()=>{
+        console.log("Server is running at port", PORT);
         })
     } catch (err) {
         console.log(err);
