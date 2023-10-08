@@ -9,7 +9,7 @@ const ImageUpload = ({ image, setImage, setFile, file }) => {
     console.log("image", image);
     try {
       const res = await axios
-        .post("http://localhost:5001/image/upload", formData, {
+        .post("https://server-7xlh.onrender.com/image/upload", formData, {
           headers: { "Content-Type": "multipart/form-data" },
         })
         setFile(res.data)
